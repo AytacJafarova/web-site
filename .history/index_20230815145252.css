@@ -39,14 +39,12 @@
 }
 .left-arrow{
     position: relative;
-    width:47px;
- height:47px;
+    width:47px
+ height="47"
 }
-.team-images  img {
+.team-images .right img {
 position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
+top: 0;
 }
 .developers {
   margin-top: 88px;

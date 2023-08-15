@@ -35,18 +35,10 @@
 }
 .team-images
 {
-    /* display: flex; */
+    display: flex;
 }
-.left-arrow{
-    position: relative;
-    width:47px;
- height:47px;
-}
-.team-images  img {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
+.team-images .right img {
+  margin-left: 20px;
 }
 .developers {
   margin-top: 88px;

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    padding: 140px 135px 140px 172px;
+    background: #28293E;
+}
+.our-team  {
+    display: flex;
+    justify-content: space-between;
+}
+.our-team .team-texts h1 {
+    color: var(--text-light-accent, #EF6D58);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.our-team .team-texts h2 {
+    color: var(--text-light, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 56px;
+font-style: normal;
+font-weight: 800;
+line-height: 64px;
+letter-spacing: -1px;
+}
+.team-images .right img {
+  margin-left: 20px;  
+}
+.developers {
+    margin-top: 88px;
+}
+.developers ul {
+    display: flex;
+    justify-content: space-between;
+}
+.developers ul li {
+    list-style-type: none;
+}
+.developers ul li .img1 img {
+    width: 196px;
+height: 247px;
+}
+.developers ul li .img1 .border {
+    padding: 40px 40px 0 40px;
+border-radius: 6px;
+border: 1px solid #3A3C56;
+}
+.developers ul li .img2 img {
+    width: 259px;
+    height: 232px;
+    flex-shrink: 0;
+}
+.developers ul li .img2 .border {
+    padding: 40px 40px 0 40px;
+    width: 270px;
+    border-radius: 6px;
+    border: 1px solid #3A3C56;
+}
+.developers ul li .img3 img {
+    width: 205px;
+    height: 238px;
+    flex-shrink: 0;
+}
+.developers ul li .img3 .border {
+    padding: 40px 40px 0 40px;
+    width: 270px;
+    border-radius: 6px;
+    border: 1px solid #3A3C56;
+}
+.developers ul li .img4 img {
+    width: 230px;
+    height: 233px;
+    flex-shrink: 0;
+}
+.developers ul li .img4 .border {
+    padding: 40px 40px 0 40px;
+    width: 270px;
+    border-radius: 6px;
+    border: 1px solid #3A3C56;
+}
